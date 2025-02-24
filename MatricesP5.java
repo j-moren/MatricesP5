@@ -7,7 +7,7 @@ public class MatricesP5 {
 
         metodos.llenarMatriz(matriz);// Llenar Matriz con Valores Aleatorios
 
-        System.out.println("Matriz Original: ");// Mostrar Matriz
+        System.out.println("Matriz Original:");// Mostrar Matriz
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 System.out.println(matriz[i][j]+" ");

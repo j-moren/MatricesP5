@@ -40,7 +40,7 @@ public class Metodos {
         return vector;
     }
     public void imprimirVector (int[] vector){
-        System.out.println("Vector Resultante: ");
+        System.out.println("Vector Resultante:");
         for (int i = 0; i < vector.length; i++) {
             System.out.print(vector[i] + "");
         }
