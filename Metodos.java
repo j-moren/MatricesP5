@@ -28,4 +28,15 @@ public class Metodos {
             }
         }
     }
+    public int[] matrizAVector(int[][] matriz) {
+        int[] vector = new int[matriz.length * matriz[0].length];// Crear Vector con el Tamaño total de la Matriz (Columnas*Filas)
+        int index =0;
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                vector [index++] = matriz[i][j];
+            }
+        }
+        return vector;
+    }
 }
