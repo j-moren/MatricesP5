@@ -34,9 +34,16 @@ public class Metodos {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                vector [index++] = matriz[i][j];
+                vector [index++] = matriz[i][j];// Recorrer la Matriz y Almacenar los valores en el Vector
             }
         }
         return vector;
+    }
+    public void imprimirVector (int[] vector){
+        System.out.println("Vector Resultante: ");
+        for (int i = 0; i < vector.length; i++) {
+            System.out.print(vector[i] + "");
+        }
+        System.out.println();// Salto de Línea final
     }
 }
